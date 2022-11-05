@@ -8,9 +8,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<?php
+
+$name = "Никита Михайлов";
+$title = "Создатель профессии «Верстальщик» на Hexlet";	
+?>
     <main>
-        <h1>Никита Михайлов</h1>
-        <h2>Создатель профессии «Верстальщик» на Hexlet</h2>
+        <h1><?=$name;?></h1>
+        <h2><?=$title;?></h2>
       
         <hr>
       
